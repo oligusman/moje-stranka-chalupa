@@ -1,0 +1,15 @@
+{
+  "description": "můj projekt",
+  "name": "zaverecny-projekt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve":"npx @11ty/eleventy --serve"
+  },
+  "author": "Olga Gusmanova",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

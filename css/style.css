@@ -1,0 +1,164 @@
+
+body { 
+    background-color:#f3c585;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    
+    }
+    
+    .hlavicka { 
+        padding: 220px 30px 30px 30px;
+        background-image: url(/images/IMG-20230503-WA0010.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    
+    } 
+    
+    
+    h1 { 
+            font-size: 60px;
+            text-align: center;
+            color: #f3c585;
+            text-shadow: 3px 3px 3px rgb(9, 9, 9);
+            margin: 0px; 
+            text-align: center;
+            
+            
+    }
+    
+    h2{
+      margin: 20px 20px 20px 100px;
+    }
+    
+    h3{
+      padding: 20px 20px 20px 100px;
+      margin-bottom: 0%;
+    }
+    
+    .menu__list {
+        margin: 0;
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+      }
+    
+      
+      .menu__link {
+        display: block;
+        padding: 30px 30px;
+        color: rgb(87, 46, 12);
+        text-decoration: none;
+        font-weight: bold;
+      }
+    
+      .menu__link:hover, .menu__link:focus {
+        background-color: rgba(211, 44, 44, 0.26);
+        color: #f3c585;
+      }
+    
+    .uvod{
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-between;
+       margin: 50px;
+       align-items: center;
+       
+    }
+    
+    .pravy{
+      order: 1;
+      text-align: justify;
+      padding: 20px;
+    
+    }
+    
+    .foto-predstaveni{
+      width: 400px;
+    border-radius: 50%;
+    margin: 20px;
+    
+    
+    
+    }
+    
+    .aktivity{
+      max-width: 100%;
+      background-color:#cd9a53 ;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px 20px 20px;
+    }
+    
+    .první{
+    max-width: 100%;
+    background-color:#cd9a53 ;
+    margin: 0px;
+    }
+    
+    .druhý{
+    text-align: justify;
+    padding: 0px;
+    }
+    
+    
+    .foto-aktivity{
+      width: 20%;
+      margin-top: 20px;
+      padding: 20px;
+    }
+     
+        .ceník{
+    max-width:100% ;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 100px;
+    }
+    
+     .tabulka{
+      display: flex;
+      margin: 10px;
+      
+     } 
+    
+     th{
+      text-align: left;
+     }
+      .galerie{
+      max-width: 100%;
+      display: flex;
+      margin: 50px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      }
+    
+      .foto-galerie{
+          border: 2px solid #756158;
+          border-radius: 10px;
+          padding: 2px;
+          width: 300px;
+          
+        }
+       
+      .kroky{
+        max-width: 100%;
+      background-color:#cd9a53 ;
+        display: flex;
+        padding: 0px 20px 20px 20px;
+    
+      }
+      .kontakt{
+        margin: 100px;
+      }
+    
+      .patička{
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        border-top: 3px solid black;
+        
+    
+      }
