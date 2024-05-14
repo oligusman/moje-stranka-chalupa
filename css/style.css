@@ -89,8 +89,7 @@ body {
       max-width: 100%;
       background-color:#cd9a53 ;
         display: flex;
-        flex-direction: column;
-        padding: 0px 20px 20px 20px;
+        padding: 0px 20px 0px 20px;
     }
     
     .první{
@@ -106,8 +105,8 @@ body {
     
     
     .foto-aktivity{
-      width: 20%;
-      margin-top: 20px;
+      width: 200px;
+      margin-top: 0px;
       padding: 20px;
     }
      
@@ -155,10 +154,21 @@ body {
       }
     
       .patička{
-        margin: 10px;
-        padding: 10px;
+        margin: 50px;
         text-align: center;
         border-top: 3px solid black;
-        
-    
-      }
+         }
+
+.clanek{
+  display:grid;
+  grid-template-columns:300px 1fr ;
+  gap:30px;
+  margin:20px;
+
+}
+
+.clanek img{
+  width: 100%;
+}
+
+

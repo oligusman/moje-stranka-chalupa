@@ -1,0 +1,20 @@
+---
+layout: layouts/stranka.njk
+title: Blog
+---
+
+<h2>Blog</h2>
+
+{%  for prispevek in collections.blog | reverse %}
+
+<div class="clanek">
+<img src="/images/{{ prispevek.data.foto }}" alt="{{ prispevek.data.alt}}">
+
+<div class="clanek__popis">
+
+<h2>{{ prispevek.data.title }}</h2>
+<p>{{ prispevek.data.perex }}</p>
+<p><a href="{{ prispevek.url }}">celý text</a></p>
+</div>
+</div>
+{% endfor %}
