@@ -208,6 +208,7 @@ body {
 .clanek{
   display:grid;
   grid-template-columns:300px 1fr ;
+  grid-template-rows: auto auto;
   gap:30px;
   margin:20px;
 
@@ -218,9 +219,9 @@ body {
 }
 
 @media screen and (max-width:800px){
-  .clanek{
-    grid-template-rows:100px 1fr ; 
-
+  .clanek{ 
+    grid-template-areas:"img img"
+    "clanek_popis clanek_popis";
   }
 }  
 .clanek_popis{
