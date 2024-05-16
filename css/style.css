@@ -63,7 +63,7 @@ body {
       }
     
       .menu__link:hover, .menu__link:focus {
-        background-color: #e74c3c;
+        background-color: hsl(6, 76%, 63%);
         color: #f3c585;
       }
     
@@ -134,13 +134,14 @@ body {
     width: 60%;
     justify-content: center;
   }
-
+.aktivity{
+  display: block;
+}
 .galerie_aktivity{
  display:block;
 }
+
 }
-
-
 
   .ceník{
     max-width:100% ;
