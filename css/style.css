@@ -127,12 +127,12 @@ body {
   
  }
   .foto-predstaveni{
-    width: 50%;
+    width: 60%;
+    justify-content: center;
   }
 
 .foto-aktivity{
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 }
