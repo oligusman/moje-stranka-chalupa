@@ -124,13 +124,18 @@ body {
 @media screen and (max-width:800px){
  .uvod{
   display:block;
-}
+  
+ }
+  .foto-predstaveni{
+    width: 50%;
+  }
+
 .foto-aktivity{
   display: flex;
-  flex-wrap: wrap;
-}
+  flex-direction: column;
 }
 
+}
 
         .ceník{
     max-width:100% ;
