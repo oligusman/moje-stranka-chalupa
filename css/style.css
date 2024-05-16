@@ -36,7 +36,7 @@ body {
     }
     
     h3{
-      padding: 20px 20px 20px 100px;
+      padding: 20px 20px 0px 100px;
       margin-bottom: 0%;
     }
     
@@ -219,7 +219,7 @@ body {
 
 @media screen and (max-width:800px){
   .clanek{
-    display: none;
+    grid-template-rows:100px 1fr ; 
 
   }
 }  
@@ -236,4 +236,8 @@ margin:20px;
 .article__image{
   width: 50%;
   margin: 20px;
+}
+
+main{
+  max-width: 100%;
 }
