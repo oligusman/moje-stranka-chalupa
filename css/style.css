@@ -63,7 +63,7 @@ body {
       }
     
       .menu__link:hover, .menu__link:focus {
-        background-color: rgba(174, 64, 64, 0.26);
+        background-color: #e74c3c;
         color: #f3c585;
       }
     
@@ -118,7 +118,7 @@ body {
       display:flex;
 
     }
-    
+
     .foto-aktivity{
       width: 200px;
       margin-top: 0px;
