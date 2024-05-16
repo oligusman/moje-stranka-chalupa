@@ -114,6 +114,10 @@ body {
     padding: 0px;
     }
     
+    .galerie_aktivity{
+      display:flex;
+
+    }
     
     .foto-aktivity{
       width: 200px;
@@ -131,11 +135,12 @@ body {
     justify-content: center;
   }
 
-.foto-aktivity{
-  display: block;
+.galerie_aktivity{
+ display:block;
+}
 }
 
-}
+
 
   .ceník{
     max-width:100% ;
@@ -211,11 +216,23 @@ body {
   width: 100%;
 }
 
+@media screen and (max-width:800px){
+  .clanek{
+    display: none;
+
+  }
+}  
+.clanek_popis{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
 .article{
 max-width: 100%;
 margin:20px;
 }
 .article__image{
-  width: 100%;
+  width: 50%;
   margin: 20px;
 }
